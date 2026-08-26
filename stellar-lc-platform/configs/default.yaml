@@ -1,0 +1,21 @@
+project:
+  name: stellar-lc-platform
+
+tess:
+  cache_directory: data/cache
+  default_author_preference:
+    - SPOC
+    - QLP
+    - TESS-SPOC
+
+quality_control:
+  min_duty_cycle: 0.5
+  max_nan_fraction: 0.1
+
+rotation:
+  default_methods:
+    - acf
+    - gls
+
+# TODO:
+# Move scientific thresholds here only after they have been justified and tested.

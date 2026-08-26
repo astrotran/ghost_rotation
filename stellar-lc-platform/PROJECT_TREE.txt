@@ -1,0 +1,100 @@
+.env.example
+.github/
+    workflows/
+        ci.yml
+.gitignore
+Dockerfile
+PROJECT_TREE.txt
+README.md
+api/
+    __init__.py
+    main.py
+    routes/
+        __init__.py
+        analysis.py
+        lightcurves.py
+        stars.py
+configs/
+    default.yaml
+data/
+    cache/
+        .gitkeep
+    processed/
+        .gitkeep
+    raw/
+        .gitkeep
+database/
+    __init__.py
+    models.py
+    session.py
+docker-compose.yml
+docs/
+    architecture.md
+    data_model.md
+frontend/
+    README.md
+notebooks/
+    README.md
+pyproject.toml
+scripts/
+    bootstrap.ps1
+    publish_github.ps1
+    smoke_test.py
+src/
+    stellar_lc_platform/
+        __init__.py
+        anomaly/
+            __init__.py
+            detector.py
+            features.py
+        catalogs/
+            __init__.py
+            metadata.py
+            resolver.py
+        core/
+            __init__.py
+            exceptions.py
+            models.py
+        detrending/
+            __init__.py
+            base.py
+            ilin.py
+            savgol.py
+            wavelet.py
+        flares/
+            __init__.py
+            analysis.py
+        quality/
+            __init__.py
+            qc.py
+        rotation/
+            __init__.py
+            acf.py
+            bgls.py
+            consensus.py
+            fft.py
+            gp.py
+            ls.py
+            periodogram.py
+            rossby.py
+        spots/
+            __init__.py
+            model.py
+        stellar/
+            __init__.py
+            gyrochronology.py
+            sed.py
+        tess/
+            __init__.py
+            download.py
+            ffi.py
+            search.py
+        visualization/
+            __init__.py
+            lightcurves.py
+            star.py
+tests/
+    test_api.py
+    test_imports.py
+workers/
+    README.md

@@ -1,0 +1,1 @@
+"""Stellar physical-property inference."""

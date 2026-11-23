@@ -1,4 +1,4 @@
-# GHOST
+# GHOST (**G**aussian-process, **H**armonic-Oscillation, and **S**elf-correlation **T**oolkit)
 
 GHOST is a desktop Python tool for inspecting stellar light curves and rotation periods. This first functional update is **GHOST_V0_2.py**, based on the existing Tkinter application.
 

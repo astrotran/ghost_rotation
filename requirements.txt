@@ -1,0 +1,9 @@
+numpy>=1.26,<3
+scipy>=1.12,<2
+pandas>=2.2,<4
+matplotlib>=3.8,<4
+astropy>=6,<9
+requests>=2.31
+certifi
+# Optional: lightkurve (additional FITS readers), astroquery (legacy SIMBAD path),
+# numba (faster BGLS), celerite2/emcee (optional GP engines/sampling), pyarrow (Parquet).
